@@ -1,0 +1,4 @@
+enum PackagingType{
+ONLINE,OFFLINE;
+
+}

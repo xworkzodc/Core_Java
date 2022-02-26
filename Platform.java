@@ -1,0 +1,4 @@
+enum Platform{
+
+WINDOWS,DOS,LINUX,UNIX,SUNSOLORIS;
+}

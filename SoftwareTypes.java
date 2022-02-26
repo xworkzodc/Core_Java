@@ -1,0 +1,5 @@
+enum SoftwareTypes{
+
+DESIGN,GAME,PROGRAMMING,STANDALONE;
+
+}

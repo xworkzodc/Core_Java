@@ -1,0 +1,5 @@
+enum SingerNames{
+
+SRIVIGNESH,KARTHIK,VENKAT;
+
+}
