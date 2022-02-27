@@ -119,38 +119,29 @@ System.out.println(chekk);
 boolean cheeck=movie3.endsWith("Nayak");
 System.out.println(cheeck);
 
+System.out.println("displaying the substring(int) ");
+String str=new String("DORA SRI VIGNESH THE SOFTWARE DEVELOPER");
+System.out.println(str.substring(9));
+
+System.out.println("substring(int,int)");
+
+String str1=new String("SRI VIGNESH THE WORLD BEST SWIMMER");
+System.out.println(str1.substring(1,2));
+System.out.println(str1.substring(0,1));
+System.out.println(str1.substring(2,3));
+
+movie2=movie2.concat("mass movie fully entertainment");
+System.out.println(movie2);
+
+movie3=movie3.concat("FULLY COMEDY MOVIE");
+System.out.println(movie3);
+
+flower=flower.concat("ROSE FLOWER MY FAVOURIT FLOWER");
+System.out.println(flower);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+flower1=flower1.concat("ROSE FLOWER MY FAVOURIT FLOWER");
+System.out.println(flower1);
 
 
 
