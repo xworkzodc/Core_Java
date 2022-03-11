@@ -1,0 +1,5 @@
+enum MotorFuelType{
+
+GASOLINE,DIESELFUEL,BIODIESEL,ETHANOL;
+
+}
