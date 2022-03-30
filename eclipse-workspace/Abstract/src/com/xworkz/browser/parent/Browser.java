@@ -91,11 +91,7 @@ public int hashCode() {
 	}
 
 
-	public abstract void cleanUp();
-	{
-		System.out.println("Clean method from the parent class");
-	}
-
+	
 
 	public abstract void Browser(String string, String string2, String string3);
 

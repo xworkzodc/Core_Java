@@ -21,12 +21,13 @@ public class BrowseRunner extends MozillaBrowser {
 	browser.notifyAll();
 	browser.showTime();
 	browser.toString();
-	browser.cleanUp();
 	browser.Browser("ACT ","ACT GOLD","ACT GOLD 123");
 	browser.wait(0, 0);
 	browser.wait(0);
 	browser.Browser();
 	browser.showTime();
+	((MozillaBrowser) browser).cleanUp();
+	
 	
 	
 	
