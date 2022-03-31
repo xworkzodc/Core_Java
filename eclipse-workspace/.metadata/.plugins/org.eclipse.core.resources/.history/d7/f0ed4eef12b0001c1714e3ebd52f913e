@@ -1,0 +1,12 @@
+package com.xworkz.associations;
+
+public class Hotel {
+
+	private String name="muralikrishna123";
+	private int since;
+	private Vendor vendor;
+	
+	
+	
+	
+}

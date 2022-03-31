@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xworkz.inhertance.thing.Car"/>
+    <fullyQualifiedTypeName name="com.xworkz.inhertance.thing.satellite.Car"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.Bread"/>
+    <fullyQualifiedTypeName name="com.xworkz.java.Tyre"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.java.Aeroplane"/>
+    <fullyQualifiedTypeName name="com.xworkz.inheritance.broadband.ModemInternet"/>
+    <fullyQualifiedTypeName name="com.xworkz.inheritance.broadband.common.Internet"/>
+    <fullyQualifiedTypeName name="com.xworkz.inheritance.broadband.common.FibreInternet"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="com.xworkz.encapsulation.dto.PersonDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.encapsulation.dto.ProductDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.browser.parent.Browser"/>
+    <fullyQualifiedTypeName name="com.xworkz.browser.sub.MozillaBrowser"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.xworkz.associations.Hotel"/>
+    <fullyQualifiedTypeName name="com.xworkz.associations.Vendor"/>
+    <fullyQualifiedTypeName name="com.xworkz.associations.VendorType"/>
+    <fullyQualifiedTypeName name="com.xworkz.expenditure.dto.ExpenditureDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.expenditure.dao.ExpenditureDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.expenditure.dto.ExpenditurePeriod"/>
+</qualifiedTypeNameHistroy>

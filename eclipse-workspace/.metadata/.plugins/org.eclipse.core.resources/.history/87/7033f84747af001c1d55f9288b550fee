@@ -1,0 +1,33 @@
+package com.xworkz.browser;
+import com.xworkz.browser.sub.MozillaBrowser;
+import com.xworkz.browser.parent.Browser;
+
+public class BrowseRunner extends MozillaBrowser {
+	
+	public static void main(String[] args) {
+	
+	Browser browser=new MozillaBrowser();
+
+	browser.connect();
+	browser.developerTool();
+	browser.equals(browser);
+	browser.getClass();
+	browser.getCompany();
+	browser.getName();
+	browser.getVersion();
+	browser.getName();
+	browser.hashCode();
+	browser.notify();
+	browser.notifyAll();
+	browser.showTime();
+	browser.toString();
+	
+	
+	
+	
+	
+
+}
+	
+	
+}

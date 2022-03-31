@@ -1,0 +1,6 @@
+package com.xworkz.expenditure;
+import com.xworkz.expenditure.dao.ExpenditureDAO;
+import com.xworkz.expenditure.dto.ExpenditureDTO;
+public class ExpenditureRunner {
+
+}

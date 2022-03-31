@@ -1,0 +1,27 @@
+
+public class duplicateElementsInString {
+	
+	 static void findDuplicateWord(String str) {
+
+		 {
+			 String[] s=str.split(" ");
+			 
+			 for(String tempString :s)
+			 {
+				 System.out.println(tempString);
+			 }
+		 }
+		 
+		 
+		 
+	}
+
+
+	public static void main(String[] args) {
+
+		findDuplicateWord("I AM LEARNING AM JAVA JAVA JAVA ");
+		
+	}
+
+	
+}

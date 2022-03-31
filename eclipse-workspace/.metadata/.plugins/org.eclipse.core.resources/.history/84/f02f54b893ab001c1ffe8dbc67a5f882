@@ -1,0 +1,207 @@
+package com.xworkz.encapsulation.dto;
+
+public class ProductDTO {
+	private String phone="oppo";
+	private int price;
+	private int size;
+	private String color;
+	private double weight;
+	private boolean working;
+	private String manfacturePlace;
+	private  boolean shoppingOnline;
+	private boolean shoppingOffline;
+	private int productcouriercharge;
+	
+	
+	private String watch="TIMEX";
+	private int watchprice;
+	private int watchsize;
+	private String watchcolor;
+	private double watchweight;
+	private boolean watchworking;
+	private String watchmanfacturePlace;
+	private  boolean watchshoppingOnline;
+	private boolean watchshoppingOffline;
+	private int watchcouriercharge;
+	
+	
+	private String aircooler="IFB";
+    private int aircoolerprice;
+	private int aircoolersize;
+	private String aircoolercolor;
+	private double aircoolerweight;
+	private boolean aircoolerworking;
+	private String aircoolermanufacturePlace;
+	private  boolean aircoolershoppingOnline;
+	private boolean aircoolershoppingOffline;
+	private int aircoolercouriercharge;
+	
+    	private String washingMachine="LG";
+	    private int washingMachineprice;
+		private int washingMachineaircoolersize;
+		private String washingMachineaircoolercolor;
+		private double washingMachineaircoolerweight;
+		private boolean  washingMachineaircoolerworking;
+		private String washingMachineaircoolermanufacturePlace;
+		private  boolean washingMachineaircoolershoppingOnline;
+		private boolean washingMachineaircoolershoppingOffline;
+		private int washingMachineaircoolercouriercharge;
+		
+	private String Book="JAVA";
+	private int Bookprice;
+	private int Bookcoolersize;
+	private String Bookcolor;
+	private double Bookweight;
+	private boolean  Bookworking;
+	private String BookmanufacturePlace;
+	private  boolean BookshoppingOnline;
+	private boolean BookshoppingOffline;
+	private int Bookcouriercharge;
+	
+	
+	private String Laptop="HP";
+	private int Laptopprice;
+	private int Laptopsize;
+	private String Laptopcolor;
+	private double Laptopweight;
+	private boolean  Laptopworking;
+	private String LaptopmanufacturePlace;
+	private  boolean LaptopshoppingOffline;
+	private int Laptopcharge;
+	
+	
+	private String gasStove="BUTTERFLY";
+	private int gasStoveprice;
+	private int gasStovesize;
+	private String gasStovecolor;
+	private double gasStoveweight;
+	private boolean  gasStoveworking;
+	private String gasStovemanufacturePlace;
+	private  boolean gasStoveshoppingOffline;
+	private int gasStovecharge;
+	
+	private String Tshirt="POLO FULL HAND";
+	private int TshirtStoveprice;
+	private int TshirtStovesize;
+	private String TshirtStovecolor;
+	private double TshirtStoveweight;
+	private boolean TshirtStoveworking;
+	private String TshirtStovemanufacturePlace;
+	private  boolean TshirtStoveshoppingOffline;
+	private int TshirtStovecharge;
+	
+	
+	public ProductDTO() {
+
+	System.out.println("RUNNING productDTO default constructor");
+	}
+	
+	
+	public String  getPhone() {
+
+		return phone;
+	}
+	
+	public void setPhone(String phone) {
+		this.phone=phone;
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+	public int getSize() {
+		return size;
+	}
+	
+	public void setSize(int size) {
+		this.size = size;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	public double getWeight() {
+		return weight;
+	}
+	
+	
+	public double  setWeight(double weight) {
+		return this.weight = weight;
+	}
+	
+	private void getWorking() {
+		// TODO Auto-generated method stub
+
+	}
+	public void setWorking(boolean working) {
+		this.working = working;
+	}
+	
+	
+	public String getManfacturePlace() {
+		return manfacturePlace;
+	}
+	
+	public void setManfacturePlace(String manfacturePlace) {
+		this.manfacturePlace = manfacturePlace;
+	}
+	
+	public boolean isShoppingOnline() {
+		return shoppingOnline;
+	}
+	
+	public void setShoppingOnline(boolean shoppingOnline) {
+		this.shoppingOnline = shoppingOnline;
+	}
+	
+	public boolean isShoppingOffline() {
+		return shoppingOffline;
+	}
+	
+	public void setShoppingOffline(boolean shoppingOffline) {
+		this.shoppingOffline = shoppingOffline;
+	}
+	
+	
+	public int getProductcouriercharge() {
+		return productcouriercharge;
+	}
+	
+	public void setProductcouriercharge(int productcouriercharge) {
+		this.productcouriercharge = productcouriercharge;
+	}
+	
+	
+	
+	public String getWatch() {
+		return watch;
+	}
+	
+	public void setWatch(String watch) {
+		this.watch = watch;
+	}
+	
+	
+	
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,113 @@
+package com.xworkz.encapsulation;
+import com.xworkz.encapsulation.dto.PersonDTO;
+import  com.xworkz.encapsulation.dto.ProductDTO;
+
+public class ProductRunnerDTO {
+	
+	public static void main(String[] args) {
+		
+		PersonDTO product=new PersonDTO();
+
+		product.setName("SRI VIGNESH");
+		String name=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(175.5);
+		double height=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(75);
+		double weight=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead=product.isDead();
+		System.out.println(product.isDead());
+		
+		System.out.println("SECOND INSTANCE OF PERSON");
+		
+		PersonDTO product1=new PersonDTO();
+		product.setName("VENKAT");
+		String name1=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(174.00);
+		double height1=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(70.0);
+		double weight1=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled1=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead1=product.isDead();
+		System.out.println(product.isDead());
+		
+		
+		/*private String phone="oppo";
+	private int price;
+	private int size;
+	private String color;
+	private double weight;
+	private boolean working;
+	private String manfacturePlace;
+	private  boolean shoppingOnline;
+	private boolean shoppingOffline;
+	private int productcouriercharge;*/
+		
+		
+		System.out.println("1 ST INSTANCE OF PRODUCT DTOS ");
+		
+		ProductDTO product2=new ProductDTO();
+		
+		product2.setPhone("OPPO SMARTPHONE");
+		System.out.println(product2.getPhone());
+		
+		product2.setPrice(100);
+		System.out.println(product2.getPrice());
+		
+		product2.setColor("RED");
+		System.out.println(product2.getColor());
+		
+		product2.setWeight(weight1);
+		System.out.println(product2.getWeight());
+		
+		product2.setWorking(true);
+		boolean working=product2.isWorking();
+		System.out.println(product2.isWorking());
+		
+		product2.setManfacturePlace("NELLORE");
+		System.out.println(product2.getManfacturePlace());
+		
+		product2.setShoppingOnline(true);
+		boolean offline=product2.isShoppingOnline();
+		System.out.println(product2.isShoppingOnline());
+		
+		product2.setShoppingOffline(false);
+		boolean offline1=product2.isShoppingOffline();
+		System.out.println(product2.isShoppingOffline());
+		
+		
+		product2.setProductcouriercharge(100);
+		System.out.println(product2.getProductcouriercharge());
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

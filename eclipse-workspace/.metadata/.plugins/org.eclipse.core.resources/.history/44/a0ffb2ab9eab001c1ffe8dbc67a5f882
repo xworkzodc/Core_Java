@@ -1,0 +1,215 @@
+package com.xworkz.encapsulation;
+import com.xworkz.encapsulation.dto.PersonDTO;
+import  com.xworkz.encapsulation.dto.ProductDTO;
+
+public class ProductRunnerDTO {
+	
+	public static void main(String[] args) {
+		
+		PersonDTO product=new PersonDTO();
+
+		product.setName("SRI VIGNESH");
+		String name=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(175.5);
+		double height=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(75);
+		double weight=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead=product.isDead();
+		System.out.println(product.isDead());
+		
+		System.out.println("SECOND INSTANCE OF PERSON");
+		
+		PersonDTO product1=new PersonDTO();
+		product.setName("VENKAT");
+		String name1=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(174.00);
+		double height1=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(70.0);
+		double weight1=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled1=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead1=product.isDead();
+		System.out.println(product.isDead());
+		
+		
+		
+		
+		
+		System.out.println("1 ST INSTANCE OF PRODUCT DTOS ");
+		
+		ProductDTO product2=new ProductDTO();
+		
+		product2.setPhone("OPPO SMARTPHONE");
+		System.out.println(product2.getPhone());
+		
+		product2.setPrice(100);
+		System.out.println(product2.getPrice());
+		
+		product2.setColor("RED");
+		System.out.println(product2.getColor());
+		
+		product2.setWeight(weight1);
+		System.out.println(product2.getWeight());
+		
+		product2.setWorking(true);
+		boolean working=product2.isWorking();
+		System.out.println(product2.isWorking());
+		
+		product2.setManfacturePlace("NELLORE");
+		System.out.println(product2.getManfacturePlace());
+		
+		product2.setShoppingOnline(true);
+		boolean offline=product2.isShoppingOnline();
+		System.out.println(product2.isShoppingOnline());
+		
+		product2.setShoppingOffline(false);
+		boolean offline1=product2.isShoppingOffline();
+		System.out.println(product2.isShoppingOffline());
+		
+		
+		product2.setProductcouriercharge(100);
+		System.out.println(product2.getProductcouriercharge());
+		
+		
+		
+
+		ProductDTO product3=new ProductDTO();
+		
+		product3.setPhone("OPPO SMARTPHONE 5G TECHNOLOGY");
+		System.out.println(product3.getPhone());
+		
+		product3.setPrice(120);
+		System.out.println(product3.getPrice());
+		
+		product3.setColor("WHITE");
+		System.out.println(product3.getColor());
+		
+		product3.setWeight(123);
+		System.out.println(product3.getWeight());
+		
+		product3.setWorking(true);
+		boolean workingg=product3.isWorking();
+		System.out.println(product3.isWorking());
+		
+		product3.setManfacturePlace("NELLORE");
+		System.out.println(product3.getManfacturePlace());
+		
+		product3.setShoppingOnline(true);
+		boolean offline3=product3.isShoppingOnline();
+		System.out.println(product3.isShoppingOnline());
+		
+		product3.setShoppingOffline(false);
+		boolean offlinee=product3.isShoppingOffline();
+		System.out.println(product3.isShoppingOffline());
+		
+		
+		product3.setProductcouriercharge(105);
+		System.out.println(product3.getProductcouriercharge());
+		
+		
+
+		ProductDTO product4=new ProductDTO();
+		
+		product4.setPhone("OPPO SMARTPHONE 5G NEW");
+		System.out.println(product4.getPhone());
+		
+		product4.setPrice(129);
+		System.out.println(product4.getPrice());
+		
+		product4.setColor("ORANGE");
+		System.out.println(product4.getColor());
+		
+		product4.setWeight(129);
+		System.out.println(product4.getWeight());
+		
+		product4.setWorking(true);
+		boolean workngg=product4.isWorking();
+		System.out.println(product4.isWorking());
+		
+		product4.setManfacturePlace("KAVALI");
+		System.out.println(product4.getManfacturePlace());
+		
+		product4.setShoppingOnline(true);
+		boolean offline4=product4.isShoppingOnline();
+		System.out.println(product4.isShoppingOnline());
+		
+		product4.setShoppingOffline(false);
+		boolean offliee=product4.isShoppingOffline();
+		System.out.println(product4.isShoppingOffline());
+		
+		
+		product4.setProductcouriercharge(155);
+		System.out.println(product4.getProductcouriercharge());
+		
+		
+
+		ProductDTO product5=new ProductDTO();
+		
+		product5.setPhone("OPPO  5G NEW");
+		System.out.println(product5.getPhone());
+		
+		product5.setPrice(229);
+		System.out.println(product5.getPrice());
+		
+		product5.setColor("ORANGE-WHITE");
+		System.out.println(product5.getColor());
+		
+		product5.setWeight(129);
+		System.out.println(product5.getWeight());
+		
+		product5.setWorking(false);
+		boolean wrkngg=product5.isWorking();
+		System.out.println(product5.isWorking());
+		
+		product5.setManfacturePlace("ONGOLE");
+		System.out.println(product5.getManfacturePlace());
+		
+		product5.setShoppingOnline(true);
+		boolean offline5=product5.isShoppingOnline();
+		System.out.println(product5.isShoppingOnline());
+		
+		product4.setShoppingOffline(true);
+		boolean ofliee=product5.isShoppingOffline();
+		System.out.println(product5.isShoppingOffline());
+		
+		
+		product5.setProductcouriercharge(250);
+		System.out.println(product4.getProductcouriercharge());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,59 @@
+package com.xworkz.encapsulation;
+import com.xworkz.encapsulation.dto.PersonDTO;
+
+public class ProductRunnerDTO {
+	
+	public static void main(String[] args) {
+		
+		PersonDTO product=new PersonDTO();
+
+		product.setName("SRI VIGNESH");
+		String name=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(175.5);
+		double height=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(75);
+		double weight=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead=product.isDead();
+		System.out.println(product.isDead());
+		
+		System.out.println("SECOND INSTANCE OF PERSON");
+		
+		PersonDTO product1=new PersonDTO();
+		product.setName("VENKAT");
+		String name1=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(174.00);
+		double height1=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(70.0);
+		double weight1=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled1=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(false);
+		boolean dead1=product.isDead();
+		System.out.println(product.isDead());
+		
+		
+		
+	}
+
+}

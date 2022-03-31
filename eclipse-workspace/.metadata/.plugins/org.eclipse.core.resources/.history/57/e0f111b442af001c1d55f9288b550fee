@@ -1,0 +1,36 @@
+package com.xworkz.browser.sub;
+import com.xworkz.browser.parent.Browser;
+
+public class MozillaBrowser extends Browser{
+	
+	
+	
+	public MozillaBrowser() {
+
+		super.getVersion();
+		super.getVersion();
+		super.getCompany();
+		
+		
+	}
+
+	@Override
+	public void developerTool() {
+		System.out.println("Overiding method from browser in child class");
+		
+	}
+
+	@Override
+	public void showTime() {
+
+		System.out.println("Overriding method from browser in child class ");
+	}
+
+	
+	public void cleanUp() {
+		
+		System.out.println("CLEAN up method from Mozilla browser which is in the child class");
+	}
+}
+
+

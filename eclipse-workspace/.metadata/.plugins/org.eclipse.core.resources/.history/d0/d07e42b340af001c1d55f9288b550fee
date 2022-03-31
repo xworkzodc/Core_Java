@@ -1,0 +1,16 @@
+package com.xworkz.browser.parent;
+
+public  abstract class Browser {
+	
+	String name="ACT FIBERNET";
+	String version="ACT 123";
+	String company="ACT";
+	
+	
+	
+	
+	
+	
+	
+
+}

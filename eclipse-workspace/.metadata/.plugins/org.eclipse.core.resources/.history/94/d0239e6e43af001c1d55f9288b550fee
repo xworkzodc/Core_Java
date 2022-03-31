@@ -1,0 +1,104 @@
+package com.xworkz.browser.sub;
+import com.xworkz.browser.parent.Browser;
+
+public class MozillaBrowser extends Browser{
+	
+	
+	
+	public MozillaBrowser() {
+
+		super.getVersion();
+		super.getVersion();
+		super.getCompany();
+		
+		
+	}
+
+	@Override
+	public void developerTool() {
+		System.out.println("Overiding method from browser in child class");
+		
+	}
+
+	@Override
+	public void showTime() {
+
+		System.out.println("Overriding method from browser in child class ");
+	}
+
+	
+	public void cleanUp() {
+		
+		System.out.println("CLEAN up method from Mozilla browser which is in the child class");
+	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+	
+	@Override
+	public void connect() {
+		// TODO Auto-generated method stub
+		super.connect();
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+	
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+	
+	
+	@Override
+	public String getCompany() {
+		// TODO Auto-generated method stub
+		return super.getCompany();
+	}
+	
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return super.getName();
+	}
+
+	
+	@Override
+	public String getVersion() {
+		// TODO Auto-generated method stub
+		return super.getVersion();
+	}
+	
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+

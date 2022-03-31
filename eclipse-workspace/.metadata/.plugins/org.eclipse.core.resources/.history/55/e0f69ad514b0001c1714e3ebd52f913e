@@ -1,0 +1,23 @@
+package com.xworkz.associations;
+
+public class HotelRunner {
+	
+	public static void main(String[] args) {
+		
+		String VendorName="SHAKTI ENTERPRISES";
+		
+		Vendor vendor=new Vendor(VendorType.VEGETABLE, 2000, VendorName);
+		
+		Hotel hotel=new Hotel(vendor);
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

@@ -97,6 +97,8 @@ public int hashCode() {
 
 
 	public abstract void Browser();
+	
+	
 
 
 	

@@ -26,7 +26,7 @@ public class BrowseRunner extends MozillaBrowser {
 	browser.wait(0);
 	browser.Browser();
 	browser.showTime();
-	((MozillaBrowser) browser).cleanUp();
+	((MozillaBrowser) browser).cleanUp();//type casting
 	
 	
 	

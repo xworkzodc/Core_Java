@@ -1,0 +1,31 @@
+package com.xworkz.encapsulation;
+import com.xworkz.encapsulation.dto.PersonDTO;
+
+public class ProductRunnerDTO {
+	
+	public static void main(String[] args) {
+		
+		PersonDTO product=new PersonDTO();
+
+		product.setName("SRI VIGNESH");
+		String name=product.getName();
+		System.out.println(product.getName());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

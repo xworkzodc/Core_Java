@@ -1,0 +1,36 @@
+package com.xworkz.encapsulation;
+import com.xworkz.encapsulation.dto.PersonDTO;
+
+public class ProductRunnerDTO {
+	
+	public static void main(String[] args) {
+		
+		PersonDTO product=new PersonDTO();
+
+		product.setName("SRI VIGNESH");
+		String name=product.getName();
+		System.out.println(product.getName());
+		
+		product.setHeight(123.00);
+		double height=product.getHeight();
+		System.out.println(product.getHeight());
+		
+		product.setWeight(500.0);
+		double weight=product.getWeight();
+		System.out.println(product.getWeight());
+		
+		product.setDisabled(false);
+		boolean Disabled=product.isDisabled();
+		System.out.println(product.isDisabled());
+		
+		
+		product.setDead(true);
+		boolean dead=product.isDead();
+		System.out.println(product.isDead());
+		
+		
+		
+		
+	}
+
+}

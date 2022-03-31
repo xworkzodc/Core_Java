@@ -1,0 +1,45 @@
+package com.xworkz.encapsulation.dto;
+
+public class PersonDTO {
+	
+	  private String name;
+      private double weight;
+      private double height;
+      private boolean disabled;
+      private boolean dead;
+
+      public PersonDTO() {
+
+      System.out.println("Default constructorDTO");
+      }
+      
+      public   String getName() {
+
+    	  return this.name;
+	}
+     
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public double getHeight() {
+		return height;
+	}
+	
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	
+	public boolean isDisabled() {
+		return disabled;
+	}
+	
+	public  void  setDisabled(boolean disabled)
+	{
+		this.disabled=disabled;
+	}
+	
+	
+	
+
+}

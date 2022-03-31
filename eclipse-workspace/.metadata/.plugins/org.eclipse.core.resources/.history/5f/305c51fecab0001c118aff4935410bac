@@ -1,0 +1,27 @@
+package com.xworkz.expenditure;
+import com.xworkz.expenditure.dao.ExpenditureDAO;
+import com.xworkz.expenditure.dto.ExpenditureDTO;
+import  com.xworkz.expenditure.dto.ExpenditurePeriod;
+public class ExpenditureRunner {
+	
+	public static void main(String[] args) {
+		
+		ExpenditureDTO dto=new ExpenditureDTO();
+		dto.setPersonName("SRI VIGNESH");
+		dto.setAmount(10000);
+		dto.setExpenditurePeriod(ExpenditurePeriod.YEARLY);
+		dto.setTax(18.0);
+		dto.setSpentOn("ELECTRINICS");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
