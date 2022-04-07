@@ -153,11 +153,20 @@ class iplTeamRunner {
 				castedDAO.save(ipldto4);
 				castedDAO.save(ipldto5);
 				castedDAO.save(ipldto6);
+				castedDAO.save(ipldto7);
+				castedDAO.save(ipldto8);
+				castedDAO.save(ipldto9);
+				castedDAO.save(ipldto10);
+				castedDAO.save(ipldto11);
+				castedDAO.save(ipldto12);
+				castedDAO.save(ipldto13);
+				castedDAO.save(ipldto14);
 
 				
 				
 				castedDAO.IplTeamDTOfindByName("SUYOG");
- //				castedDAO.IplTeamDTOfindByNameAndSponsor(null, null);
+ 			    castedDAO.IplTeamDTOfindByNameAndSponsor("arjun",  "CM OF ANDHRA");
+ 			   castedDAO.IplTeamDTOfindByNameAndSponsor("NELLORE WARRIERS"," VIGNESH", "YS JAGAN CM OF ANDHRA");
 
 				castedDAO.gettotal();
 		

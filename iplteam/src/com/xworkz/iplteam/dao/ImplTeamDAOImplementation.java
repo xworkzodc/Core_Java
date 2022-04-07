@@ -97,12 +97,12 @@ int total();*/
 					&& arrayFromDTOParent[count].getSponser()==sponsor
 					&& arrayFromDTOParent[count].getCaptain()==captain)
 			{
-				System.out.println("Name and sponser founded from dto @"+name+"sponser"+sponsor+"captain"+captain);
+				System.out.println("Name and sponser founded from dto === @"+name+"sponser"+sponsor+"captain"+captain);
 				return;
 			}
 			else
 			{
-				System.out.println("Anything not found is not found @"+name+sponsor+captain);
+				System.out.println("Anything not found === @"+name+sponsor+captain);
 				return;
 			}
 		}
