@@ -28,6 +28,23 @@ public abstract  class IplDAO {
 		return ipldto;
 	}
 
+	public IplTeamDTO[] getIplTeamDTOs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int getIplNewIndex() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setIplNewIndex(int newIndex) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 	
 	
 

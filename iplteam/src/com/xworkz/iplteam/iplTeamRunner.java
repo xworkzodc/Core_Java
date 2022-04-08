@@ -169,7 +169,12 @@ class iplTeamRunner {
  			   castedDAO.IplTeamDTOfindByNameAndSponsor("NELLORE WARRIERS"," VIGNESH", "YS JAGAN CM OF ANDHRA");
 
 				castedDAO.gettotal();
-		
+				
+				castedDAO.saveMultiple(ipldto15, ipldto15);
+				castedDAO.updateSponsorByName("SRIVIGNESH", "OMKAR SIR");
+		        castedDAO.saveMultiple(ipldto15, ipldto2);
+		        castedDAO.updateCaptainByName("SRI VIGNESH","SRIVIGNESH");
+		        castedDAO.updateSponsorByName("ANUSHKA", "SAINANEHWAL");
 		
 		
 		
