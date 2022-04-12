@@ -1,5 +1,7 @@
 package com.xworkz.exceptions;
 
+import javax.naming.NameAlreadyBoundException;
+
 public class NameService {
 	
 	
@@ -11,14 +13,14 @@ public class NameService {
 	
 	}
 	
-	public boolean add(String name)
+	public boolean add(String name) throws NameAlreadyBoundException
 	{
 		if(name!=null)
 		{
 			if(!(name.length()>3) && (name.length()>=50) ||  !name.matches ("[A-Z a-z]+"))
 			{
 				System.out.println("Name is invalid "+name);
-				return false;
+				throw  new NameAlreadyBoundException();
 			}
 			
 			

@@ -1,9 +1,11 @@
 package com.xworkz.exceptions;
+import javax.naming.NameAlreadyBoundException;
+
 import com.xworkz.exceptions.NameService;
 public class NameServiceRunner {
 	
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws NameAlreadyBoundException
 	{
 		NameService nameService=new NameService();
 		nameService.add("XWORKZ");
