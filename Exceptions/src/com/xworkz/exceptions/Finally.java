@@ -27,7 +27,7 @@ public class Finally {
 		try
 		{
 			System.out.println("Function B is running");
-			
+			System.exit(0);
 		}
 		finally {
 			System.out.println("Finally method in Function B");
@@ -46,6 +46,7 @@ public class Finally {
 		finally
 		{
 			System.out.println("Finally in the method c");
+			
 		}
 	}
 
