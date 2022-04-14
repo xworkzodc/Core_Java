@@ -22,10 +22,13 @@ public class TextFileWritingExample3 {
             bufferedWriter.newLine();
             bufferedWriter.write("vignesh is a police officer");
              
-            bufferedWriter.close();
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
+	    finally{
+		    bufferedWriter.close();
+	    }
          
     }
 }
